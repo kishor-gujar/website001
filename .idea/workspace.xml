@@ -3,10 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="3161cce4-5536-4223-993d-eefc0f5cd5c9" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/css/app.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/css/maps/app.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/app/css/maps/app.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/scss/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/scss/app.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,9 +18,10 @@
         <counts>
           <entry key="project.closed" value="4" />
           <entry key="project.open.time.2" value="2" />
+          <entry key="project.open.time.47" value="1" />
           <entry key="project.open.time.50" value="1" />
           <entry key="project.open.time.71" value="1" />
-          <entry key="project.opened" value="4" />
+          <entry key="project.opened" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -39,14 +38,14 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="html" value="169" />
+          <entry key="html" value="171" />
           <entry key="js" value="3" />
           <entry key="scss" value="85" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="169" />
+          <entry key="HTML" value="171" />
           <entry key="JavaScript" value="3" />
           <entry key="SCSS" value="85" />
         </counts>
@@ -58,8 +57,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="167">
-              <caret line="106" column="38" selection-start-line="106" selection-start-column="38" selection-end-line="106" selection-end-column="38" />
+            <state relative-caret-position="165">
+              <caret line="61" column="38" lean-forward="true" selection-start-line="61" selection-start-column="38" selection-end-line="64" selection-end-column="102" />
             </state>
           </provider>
         </entry>
@@ -77,7 +76,7 @@
         <entry file="file://$PROJECT_DIR$/app/js/jSlideshow.js">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret column="7" lean-forward="true" selection-start-column="7" selection-end-column="38" />
+              <caret column="7" selection-start-column="7" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -85,8 +84,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/scss/app.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="202">
-              <caret line="969" column="11" lean-forward="true" selection-start-line="969" selection-start-column="11" selection-end-line="969" selection-end-column="11" />
+            <state relative-caret-position="14940">
+              <caret line="996" selection-start-line="996" selection-end-line="996" />
             </state>
           </provider>
         </entry>
@@ -154,6 +153,8 @@
       <path value="$PROJECT_DIR$/app/vendor/font-awesome/package.json" />
       <path value="$PROJECT_DIR$/app/vendor/nivo-slider/package.json" />
       <path value="$PROJECT_DIR$/package.json" />
+      <path value="$PROJECT_DIR$/public/vendor/font-awesome/package.json" />
+      <path value="$PROJECT_DIR$/public/vendor/nivo-slider/package.json" />
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
@@ -231,16 +232,18 @@
       <workItem from="1534408773979" duration="2056000" />
       <workItem from="1534420851212" duration="2887000" />
       <workItem from="1534424445558" duration="6287000" />
+      <workItem from="1534454696569" duration="872000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12098000" />
+    <option name="totallyTimeSpent" value="12970000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="0" width="1368" height="741" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2613293" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26510575" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Gulp" order="2" side_tool="true" />
       <window_info id="npm" order="3" side_tool="true" />
@@ -270,10 +273,10 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/gulpfile.js">
+    <entry file="file://$PROJECT_DIR$/app/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="35" column="10" selection-start-line="35" selection-start-column="10" selection-end-line="35" selection-end-column="10" />
+        <state relative-caret-position="165">
+          <caret line="61" column="38" lean-forward="true" selection-start-line="61" selection-start-column="38" selection-end-line="64" selection-end-column="102" />
         </state>
       </provider>
     </entry>
@@ -287,21 +290,21 @@
     <entry file="file://$PROJECT_DIR$/app/js/jSlideshow.js">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="7" lean-forward="true" selection-start-column="7" selection-end-column="38" />
+          <caret column="7" selection-start-column="7" selection-end-column="38" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/scss/app.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
-          <caret line="969" column="11" lean-forward="true" selection-start-line="969" selection-start-column="11" selection-end-line="969" selection-end-column="11" />
+        <state relative-caret-position="14940">
+          <caret line="996" selection-start-line="996" selection-end-line="996" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/index.html">
+    <entry file="file://$PROJECT_DIR$/gulpfile.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="167">
-          <caret line="106" column="38" selection-start-line="106" selection-start-column="38" selection-end-line="106" selection-end-column="38" />
+        <state relative-caret-position="525">
+          <caret line="35" column="10" selection-start-line="35" selection-start-column="10" selection-end-line="35" selection-end-column="10" />
         </state>
       </provider>
     </entry>
