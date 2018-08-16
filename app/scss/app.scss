@@ -3,10 +3,7 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:300);
 @import url(http://fonts.googleapis.com/css?family=Oswald:400,700);
 @import url(http://fonts.googleapis.com/css?family=Alex+Brush);
-@import url(slider.css);
-@import url(nav.css);
-@import url(table.css);
-@import url(booking.css);
+
 
 .clear {
   clear: both;
@@ -30,12 +27,46 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+
+// Medium devices (tablets, 768px and up)
+@media only screen and (max-width : 767px){
+	#wrapper {
+//		padding: 0 !important;
+	}
+	
+	div.searchbox{
+		margin: auto;
+	}
+	.searchbox {
+		margin: auto !important;
+	}
+	#slideContainer {
+		margin: auto;
+	}
+	.img-fluid {
+		width: 100% !important;
+	}
+	.home2 {
+		margin: auto !important;
+	}
+}
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : portrait) { 
+	body {
+		.home2 {
+			width: 100% !important;
+		}
+	}
+}
+
 div#wrapper {
   //width: 1000px;
   height: auto;
   background: #fff;
   margin: 0 auto;
-  padding: 0 25px 10px 25px;
+//  padding: 0 25px 10px 25px;
 }
 
 div.titletext {
@@ -105,7 +136,7 @@ div#pagecontent {
 .clrbox {
   background: #fff;
   height: 40px;
-  padding: 0px 0 70px 0;
+  padding: 0px 0 100px 0;
   //width: 1000px;
 }
 
@@ -963,25 +994,3 @@ li.navtrip a:hover {
   display: none;
 }
 
-
-
-// Small devices (landscape phones, 576px and up)
-@media (min-width: 576px) {
-  .clrbox {
-    padding: 0px 0 100px 0;
-  }
-}
-
-// Medium devices (tablets, 768px and up)
-@media (min-width: 768px) {
-  //.clrbox {
-  //  padding: 0px 0 100px 0;
-  //}
-}
-
-// Large devices (desktops, 992px and up)
-@media (min-width: 992px) {
-  //.clrbox {
-  //  padding: 0px 0 100px 0;
-  //}
-}

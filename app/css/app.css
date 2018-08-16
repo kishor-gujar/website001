@@ -2,10 +2,6 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:300);
 @import url(http://fonts.googleapis.com/css?family=Oswald:400,700);
 @import url(http://fonts.googleapis.com/css?family=Alex+Brush);
-@import url(slider.css);
-@import url(nav.css);
-@import url(table.css);
-@import url(booking.css);
 .clear {
   clear: both; }
 
@@ -24,11 +20,26 @@ body {
   color: #5e5e5e;
   font-family: Arial, Helvetica, sans-serif; }
 
+@media only screen and (max-width: 767px) {
+  div.searchbox {
+    margin: auto; }
+  .searchbox {
+    margin: auto !important; }
+  #slideContainer {
+    margin: auto; }
+  .img-fluid {
+    width: 100% !important; }
+  .home2 {
+    margin: auto !important; } }
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+  body .home2 {
+    width: 100% !important; } }
+
 div#wrapper {
   height: auto;
   background: #fff;
-  margin: 0 auto;
-  padding: 0 25px 10px 25px; }
+  margin: 0 auto; }
 
 div.titletext {
   height: 30px;
@@ -83,7 +94,7 @@ div#pagecontent {
 .clrbox {
   background: #fff;
   height: 40px;
-  padding: 0px 0 70px 0; }
+  padding: 0px 0 100px 0; }
 
 h1 {
   font-family: 'Oswald', sans-serif;
@@ -845,9 +856,5 @@ li.navtrip a:hover {
 
 .desnav div {
   display: none; }
-
-@media (min-width: 576px) {
-  .clrbox {
-    padding: 0px 0 100px 0; } }
 
 /*# sourceMappingURL=maps/app.css.map */
