@@ -31,7 +31,7 @@ div#wrapper {
   padding: 0 25px 10px 25px; }
 
 div.titletext {
-  height: 20px;
+  height: 30px;
   padding: 5px 10px;
   margin: 0 auto;
   background: #004d67;
@@ -83,7 +83,7 @@ div#pagecontent {
 .clrbox {
   background: #fff;
   height: 40px;
-  padding: 0px 0 30px 0; }
+  padding: 0px 0 70px 0; }
 
 h1 {
   font-family: 'Oswald', sans-serif;
@@ -140,14 +140,13 @@ h6 {
   font-weight: lighter; }
 
 div.pageslider {
-  height: 310px;
   margin: 0 auto;
   background: #fff; }
 
 div.searchbox {
   background: url(../images/searchbox.png) top left;
+  width: 280px;
   height: 270px;
-  float: right;
   padding: 20px;
   margin: 0;
   background-repeat: no-repeat; }
@@ -248,7 +247,7 @@ div.home1 p {
   text-align: justify; }
 
 div.home2 {
-  float: right;
+  width: 280px;
   height: auto;
   margin: 0;
   background: #dfebf7;
@@ -557,5 +556,298 @@ span.moreinfo a {
 
 span.moreinfo a:hover {
   background: #00c300; }
+
+#slideContainer {
+  height: auto; }
+
+#slideContainer #rightControl, #slideContainer #pauseControl, #slideContainer #playControl, #slideContainer #leftControl {
+  top: 0px; }
+
+#slideContainer {
+  width: 330px;
+  height: 140px;
+  overflow: auto;
+  position: relative; }
+
+#slideContainer .slide {
+  margin: 0 auto;
+  width: 330px;
+  height: 140px; }
+
+#slideContainer .control {
+  display: block;
+  width: 50px;
+  height: auto;
+  text-indent: -10000px;
+  position: absolute;
+  cursor: pointer; }
+
+#slideContainer #leftControl {
+  top: 0px;
+  right: 50px;
+  background: transparent url("icoleft.gif") no-repeat 0 0; }
+
+#slideContainer #playControl {
+  top: 0px;
+  right: 25px;
+  background: transparent url("icoplay.gif") no-repeat 0 0;
+  display: none; }
+
+#slideContainer #pauseControl {
+  top: 0px;
+  right: 25px;
+  background: transparent url("icopause.gif") no-repeat 0 0; }
+
+#slideContainer #rightControl {
+  top: 0px;
+  right: 0px;
+  background: transparent url("icoright.gif") no-repeat 0 0; }
+
+.boxmenu {
+  width: 960px;
+  height: 58px;
+  margin: 0; }
+
+/* * * * * *  navigation nav  * * * * * */
+.mainnav {
+  margin: 10px 0 0 0;
+  padding: 0; }
+
+.mainnav li {
+  float: left;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  font-family: 'Oswald', sans-serif; }
+
+.mainnav li a {
+  display: block;
+  cursor: pointer; }
+
+.mainnav li a.home {
+  padding: 4px 14px 0 15px;
+  height: 40px;
+  margin: 0 3px 0 3px; }
+
+.mainnav li a.boat-charter {
+  padding: 4px 14px 0 15px;
+  height: 40px;
+  margin: 0 3px 0 3px; }
+
+.mainnav li a.destinations {
+  padding: 4px 14px 0 15px;
+  height: 40px;
+  margin: 0 3px 0 3px; }
+
+.mainnav li a.about {
+  padding: 4px 15px 0 15px;
+  height: 40px;
+  margin: 0 3px 0 3px; }
+
+.mainnav li a.contact {
+  padding: 4px 15px 0 15px;
+  height: 50px;
+  margin: 0 3px 0 3px; }
+
+.mainnav li a {
+  color: #007997 !important;
+  text-decoration: none; }
+
+.mainnav li.active {
+  color: #007997 !important;
+  background: url(../images/bgnav.png) top;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px; }
+
+.mainnav li a:hover {
+  color: #08bedf !important;
+  background: url(../images/bgnav.png) top;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px; }
+
+.mainnav div {
+  display: none; }
+
+ul.navtrip {
+  margin: 0;
+  font-family: 'Oswald', sans-serif;
+  font-size: 17px;
+  font-weight: lighter;
+  list-style: none;
+  padding: 0 0 0 35px; }
+
+li.navtrip {
+  display: block;
+  margin: 2px 0 0 -32px;
+  padding: 1px 5px 1px 25px;
+  background: url(../images/navprev.png) no-repeat left; }
+
+li.navtrip a {
+  text-decoration: none;
+  color: #d8f3fc; }
+
+li.navtrip a:hover {
+  text-decoration: underline;
+  color: #36fbff; }
+
+#destnav {
+  width: 980px;
+  margin: 0;
+  padding: 10px 0 30px 0; }
+
+.desnav {
+  margin: 0;
+  width: 980px; }
+
+.desnav li {
+  float: left;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  font-family: 'Oswald', sans-serif; }
+
+.desnav li a {
+  display: block;
+  cursor: pointer;
+  color: #007997 !important;
+  text-decoration: none;
+  padding: 0;
+  margin: 0 10px; }
+
+.desnav li a:hover {
+  color: #08bedf !important; }
+
+.desnav div {
+  display: none; }
+
+.boxmenu {
+  width: 960px;
+  height: 58px;
+  margin: 0; }
+
+/* * * * * *  navigation nav  * * * * * */
+#navigation {
+  height: auto;
+  margin: 8px 0 0 0;
+  float: right; }
+
+.mainnav {
+  margin: 10px 0 0 0;
+  padding: 0; }
+
+.mainnav li {
+  float: left;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  font-family: 'Oswald', sans-serif; }
+
+.mainnav li a {
+  display: block;
+  cursor: pointer; }
+
+.mainnav li a.home {
+  padding: 4px 14px 0 15px;
+  height: 40px;
+  margin: 0 3px 0 3px; }
+
+.mainnav li a.boat-charter {
+  padding: 4px 14px 0 15px;
+  height: 40px;
+  margin: 0 3px 0 3px; }
+
+.mainnav li a.destinations {
+  padding: 4px 14px 0 15px;
+  height: 40px;
+  margin: 0 3px 0 3px; }
+
+.mainnav li a.about {
+  padding: 4px 15px 0 15px;
+  height: 40px;
+  margin: 0 3px 0 3px; }
+
+.mainnav li a.contact {
+  padding: 4px 15px 0 15px;
+  height: 50px;
+  margin: 0 3px 0 3px; }
+
+.mainnav li a {
+  color: #007997 !important;
+  text-decoration: none; }
+
+.mainnav li.active {
+  color: #007997 !important;
+  background: url(../images/bgnav.png) top;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px; }
+
+.mainnav li a:hover {
+  color: #08bedf !important;
+  background: url(../images/bgnav.png) top;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px; }
+
+.mainnav div {
+  display: none; }
+
+ul.navtrip {
+  margin: 0;
+  font-family: 'Oswald', sans-serif;
+  font-size: 17px;
+  font-weight: lighter;
+  list-style: none;
+  padding: 0 0 0 35px; }
+
+li.navtrip {
+  display: block;
+  margin: 2px 0 0 -32px;
+  padding: 1px 5px 1px 25px;
+  background: url(../images/navprev.png) no-repeat left; }
+
+li.navtrip a {
+  text-decoration: none;
+  color: #d8f3fc; }
+
+li.navtrip a:hover {
+  text-decoration: underline;
+  color: #36fbff; }
+
+#destnav {
+  width: 980px;
+  margin: 0;
+  padding: 10px 0 30px 0; }
+
+.desnav {
+  margin: 0;
+  width: 980px; }
+
+.desnav li {
+  float: left;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  font-family: 'Oswald', sans-serif; }
+
+.desnav li a {
+  display: block;
+  cursor: pointer;
+  color: #007997 !important;
+  text-decoration: none;
+  padding: 0;
+  margin: 0 10px; }
+
+.desnav li a:hover {
+  color: #08bedf !important; }
+
+.desnav div {
+  display: none; }
+
+@media (min-width: 576px) {
+  .clrbox {
+    padding: 0px 0 100px 0; } }
 
 /*# sourceMappingURL=maps/app.css.map */
