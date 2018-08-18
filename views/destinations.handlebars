@@ -1,0 +1,112 @@
+{{#section 'slider'}}
+
+    {{> includes/destinations}}
+
+{{/section}}
+
+
+
+ <div class="destinationspage">
+            <div class="row">
+                <div class="col-12">
+                    <div class="clrbox">
+                       <h1>Destinations</h1>
+                    </div>
+
+
+<div id="googleMap"></div>
+
+
+              <p>With year round sailing, Phuket offers one of the best yachting destinations in the world. The stunning sheltered bay of Phang Nga is immediately accessible from all of Phuket's marinas, while the more remote islands of the Andaman Sea are waiting for the more adventurous sailors.</p>
+<div class="des1"><a href="destinations/coral-islands.htm"><img src="images/destinations/coral-islands.jpg" title="Phang Nga Bay Private Yachts Charters" alt="Phang Nga Bay Private Yachts Charters" /></a>
+<h3>Coral Island</h3>
+<p>Coral Island lies just 9 kilometres off the southeastern tip of Phuket and is an ideal destination for a half-day charter. The two main beaches, Long Beach and Banana Beach,</p>
+</div>
+<div class="des1"><a href="destinations/khai-islands.htm"><img src="images/destinations/khai-islands.jpg" title="Phang Nga Bay Private Yachts Charters" alt="Phang Nga Bay Private Yachts Charters" /></a>
+<h3>Khai Island</h3>
+<p>Khai Island Tours have 3 small Islands are Khai Nok, Khai Nai and Khai Nui , those three islands are surrounded by crystal clear waters with tropical fish beautiful rock formations, coral and beautiful beaches. .</p>
+</div>
+<div class="des2"><a href="destinations/racha-island.htm"><img src="images/destinations/racha-island.jpg" title="Phang Nga Bay Private Yachts Charters" alt="Phang Nga Bay Private Yachts Charters" /></a>
+<h3>Racha Islands</h3>
+<p>The Racha or Raya islands, is about 12 km south of Phuket, are best known as excellent snorkeeling and dving for daytrip destinations.</p>
+</div>
+<div class="clear"></div>
+<div class="des1"><a href="destinations/phi-phi-islands.htm"><img src="images/destinations/phi-phi-islands.jpg" title="Phang Nga Bay Private Yachts Charters" alt="Phang Nga Bay Private Yachts Charters" /></a>
+<h3>Phi Phi Island</h3>
+<p>The twin Phi Phi islands, comprised of Phi Phi Don and Phi Phi Ley, are located 45 kilometers to the southeast of Phuket. They are famous for their stunning beaches, clear turquoise waters, and towering limestone cliffs rising out of the sea. A popular anchorage is Maya Bay, which was used as a location in the film “The Beach”.</p>
+</div>
+<div class="des1"><a href="destinations/krabi-islands.htm"><img src="images/destinations/krabi-islands.jpg" title="Phang Nga Bay Private Yachts Charters" alt="Phang Nga Bay Private Yachts Charters" /></a>
+<h3>Krabi Ao Nang &amp; Railay</h3>
+<p>Well-known for its beaches and limestone mountains, Ao Nang is the main tourist destination in Krabi and has a wide range of hotels and amenities.</p>
+</div>
+<div class="des2"><a href="destinations/koh-lanta-islands.htm"><img src="images/destinations/koh-lanta-islands.jpg" title="Phang Nga Bay Private Yachts Charters" alt="Phang Nga Bay Private Yachts Charters" /></a>
+<h3>Koh Lanta Islands</h3>
+<p>Koh Lanta is actually a group of 52 islands that form the southernmost district of Krabi province. The two largest islands, Koh Lanta Yai and Koh Lanta Noi (Big Lanta and Little Lanta) are separated by a narrow strait which also includes the small island of Koh Klang. Fifteen of the islands in this group are included in the Koh Lanta National Marine Park.</p>
+</div>
+<div class="clear"></div>
+<div class="des1"><a href="destinations/phang-nga-bay.htm"><img src="images/destinations/phang-nga-bay.jpg" title="Phang Nga Bay Private Yachts Charters" alt="Phang Nga Bay Private Yachts Charters" /></a>
+<h3>Phang Nga Bay</h3>
+<p>Located 47 kilometers northeast of Phuket, the spectacularly scenic Phang Nga Bay is dotted with over 100 islands and is one of the best sailing grounds in the world. The bay is bounded by Phuket island to the west, Phang Nga and Krabi provinces to the north and east.</p>
+</div>
+<div class="des1"><a href="destinations/similan-islands.htm"><img src="images/destinations/similan-islands.jpg" title="Phang Nga Bay Private Yachts Charters" alt="Phang Nga Bay Private Yachts Charters" /></a>
+<h3>Similan Islands</h3>
+<p>Koh Similan is the largest island. There are a total of 9 islands. The sea in the area has an average depth of 60 feet. Underwater it is full of rock formations and coral reefs in several shapes and forms, resembling such things as deer, leaves, brains, and mushrooms.</p>
+</div>
+<div class="des2"><a href="destinations/surin-islands.htm"><img src="images/destinations/surin-islands.jpg" title="Phang Nga Bay Private Yachts Charters" alt="Phang Nga Bay Private Yachts Charters" /></a>
+<h3>Surin Islands</h3>
+<p>The Surin Islands have a broad selection of animal life<br />
+Below the water can be found a very rich and pristine coral reef ecosystem. While small portions of the islands were affected by the 2004 tsunami, most reefs are still quite healthy.</p>
+</div>
+<div class="clear"></div>
+        </div>
+    </div>
+
+</div>
+      
+
+
+
+
+{{#section 'script'}}
+<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&amp;sensor=false" type="text/javascript">
+</script>
+
+   <script type="text/javascript">
+        var locations = [
+          ['Coral Island', 7.744332,98.375874, 1],
+          ['Khai Island', 7.891566,98.515306, 2],
+          ['Racha Islands', 7.609616,98.371686, 3],
+          ['Phi Phi Island', 7.736691,98.769562, 4],
+          ['Krabi Ao Nang and Railay', 8.004375,98.841505, 5],
+          ['Koh Lanta Islands', 7.603269,99.034594, 6],
+          ['Phang Nga Bay', 8.275395,98.500553, 7],
+          ['Similan Islands', 8.597022,97.645111, 8],
+          ['Surin Islands', 9.451094,97.877541, 9]
+        ];
+
+        var map = new google.maps.Map(document.getElementById('googleMap'), {
+          zoom: 8,
+          center: new google.maps.LatLng(8.540915, 98.427887),
+          mapTypeId: google.maps.MapTypeId.ROADMAP
+        });
+
+        var infowindow = new google.maps.InfoWindow();
+
+        var marker, i;
+
+        for (i = 0; i < locations.length; i++) {
+          marker = new google.maps.Marker({
+            position: new google.maps.LatLng(locations[i][1], locations[i][2]),
+            map: map
+          });
+
+          google.maps.event.addListener(marker, 'click', (function(marker, i) {
+            return function() {
+              infowindow.setContent(locations[i][0]);
+              infowindow.open(map, marker);
+            }
+          })(marker, i));
+        }
+</script>
+
+{{/section}}

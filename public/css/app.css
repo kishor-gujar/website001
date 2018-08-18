@@ -30,7 +30,11 @@ body {
   .img-fluid {
     width: 100% !important; }
   .home2 {
-    margin: auto !important; } }
+    margin: auto !important; }
+  .des1, .des2 {
+    width: 100% !important; }
+    .des1 img, .des2 img {
+      width: 100% !important; } }
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
   body .home2 {
@@ -360,12 +364,13 @@ span.para {
 
 div.des1 {
   float: left;
-  width: 310px;
+  width: 345px;
   height: auto;
   padding: 0 0 10px 0;
   margin: 0px 35px 30px 0; }
 
 div.des1 img {
+  width: 345px;
   padding: 0;
   margin: 0;
   border: 0; }
@@ -382,7 +387,7 @@ div.des1 p {
 
 div.des2 {
   float: right;
-  width: 310px;
+  width: 345px;
   height: auto;
   padding: 0 0 10px 0;
   margin: 0px 0 30px 0; }
@@ -529,7 +534,6 @@ div.columcharter2 {
   height: auto; }
 
 div.charterlist {
-  width: 980px;
   height: auto;
   padding: 10px; }
 
@@ -543,12 +547,10 @@ div.charterlist:visited {
   background: #e8f6fd; }
 
 div.charterlist_img {
-  width: 310px;
   height: auto;
   float: left; }
 
 div.charterlistdetails {
-  width: 660px;
   height: auto;
   float: right;
   font-size: 14px; }
@@ -856,5 +858,180 @@ li.navtrip a:hover {
 
 .desnav div {
   display: none; }
+
+.tablerate {
+  background: #fff;
+  border: 1px solid #929292;
+  width: 100%;
+  border-collapse: collapse;
+  margin: 0 0 10px 0; }
+
+.tablerate td.headtable {
+  background: #daedf0;
+  border: 1px solid #929292;
+  padding: 10px 15px;
+  font-size: 14px;
+  text-align: center;
+  color: #fff;
+  font-weight: bold;
+  color: #222; }
+
+.tablerate td.headtable2 {
+  background: #f17f17;
+  border: 1px solid #929292;
+  padding: 10px 15px;
+  font-size: 14px;
+  text-align: center;
+  color: #fff;
+  font-weight: bold; }
+
+.tablerate td {
+  background: #fff;
+  border: 1px solid #929292;
+  padding: 10px 15px;
+  font-size: 14px;
+  font-weight: bold;
+  color: #222; }
+
+.tablerate td.align {
+  text-align: center;
+  padding: 10px 0; }
+
+.tablerate td.itinerary {
+  background: #f17f17;
+  border: 1px solid #dfdfdf;
+  padding: 8px 15px;
+  font-size: 17px;
+  text-align: center;
+  color: #fff;
+  font-weight: bold; }
+
+.tablerate td.yellow {
+  background: #ffcb5d;
+  padding: 8px 0; }
+
+.tablerate td.yellow2 {
+  background: #edf6f7; }
+
+.tablerate td.yellow21 {
+  background: #fff; }
+
+.tablerate td span {
+  font-size: 11px;
+  color: #007997;
+  font-style: italic;
+  line-height: 12px;
+  font-weight: normal; }
+
+.tablerate td.clared {
+  background: #fff;
+  border: none;
+  height: 5px; }
+
+.tablerate2 {
+  background: #fff;
+  border: 1px solid #929292;
+  width: 800px;
+  border-collapse: collapse;
+  margin: 0 0 10px 0; }
+
+.tablerate2 td.headtable {
+  background: #daedf0;
+  border: 1px solid #929292;
+  padding: 8px 15px;
+  font-size: 14px;
+  text-align: center;
+  color: #fff;
+  font-weight: bold;
+  color: #222; }
+
+.tablerate2 td.headtable2 {
+  background: #f17f17;
+  border: 1px solid #929292;
+  padding: 10px 15px;
+  font-size: 14px;
+  text-align: center;
+  color: #fff;
+  font-weight: bold; }
+
+.tablerate2 td {
+  background: #fff;
+  border: 1px solid #929292;
+  padding: 7px 15px;
+  font-size: 14px;
+  font-weight: bold;
+  color: #222; }
+
+.tablerate2 td.align {
+  text-align: center;
+  padding: 5px 0; }
+
+.tablerate2 td.itinerary {
+  background: #f17f17;
+  border: 1px solid #dfdfdf;
+  padding: 8px 15px;
+  font-size: 17px;
+  text-align: center;
+  color: #fff;
+  font-weight: bold; }
+
+.tablerate2 td.yellow {
+  background: #ffcb5d;
+  padding: 7px 0; }
+
+.tablerate2 td.yellow2 {
+  background: #edf6f7; }
+
+.tablerate2 td.yellow21 {
+  background: #fff; }
+
+.tablerate2 td span {
+  font-size: 11px;
+  color: #007997;
+  font-style: italic;
+  line-height: 12px;
+  font-weight: normal; }
+
+.tablerate2 td.clared {
+  background: #fff;
+  border: none;
+  height: 5px; }
+
+ul.bb {
+  font-weight: lighter;
+  list-style: none;
+  margin: 5px 0 0 -15px; }
+
+ul.bb li {
+  list-style: square; }
+
+.itinerary {
+  background: #fff;
+  border: 1px solid #ccc;
+  width: 100%;
+  border-collapse: collapse;
+  margin: 0;
+  padding: 0; }
+
+.itinerary td {
+  border: 0;
+  border: 1px solid #ccc;
+  padding: 5px; }
+
+table.charterprice {
+  width: 100%;
+  border-collapse: collapse; }
+
+table.charterprice td {
+  border: 1px solid #929292;
+  padding: 7px 10px; }
+
+table.charterprice2 {
+  width: 100%;
+  border-collapse: collapse; }
+
+table.charterprice2 td {
+  border: 1px solid #929292;
+  padding: 7px 10px; }
 
 /*# sourceMappingURL=maps/app.css.map */

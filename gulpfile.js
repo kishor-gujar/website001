@@ -47,7 +47,8 @@ gulp.task('sass', function () {
            .on('error', sass.logError)
            .pipe(sourcemaps.write('./maps'))
      }))
-     .pipe(gulp.dest('app/css'))
+    //  .pipe(gulp.dest('app/css'))
+     .pipe(gulp.dest('public/css'))
      .pipe(browserSync.stream());
    });
 
@@ -56,12 +57,14 @@ gulp.task('sass', function () {
 gulp.task('serve', ['sass'], function() {
 
     browserSync.init({
-        server: "./app"
+        server: "server.js"
     });
 
     gulp.watch("app/scss/*.scss", ['sass']);
     // gulp.watch("app/css/*.css").on('change', browserSync.reload);
-    gulp.watch("app/*.html").on('change', browserSync.reload);
+    gulp.watch("app/*.html");
+    gulp.watch("views/*.handlebars").
+    on('change', browserSync.reload);
 });
 
 gulp.task('default', ['serve', 'vendor']);
